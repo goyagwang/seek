@@ -884,6 +884,11 @@ body {
         color: #333;
         margin-top: 50px;
     }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
 }
 
 @media (max-width:1099px) {
