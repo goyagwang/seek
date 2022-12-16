@@ -189,7 +189,7 @@ body {
 }
 
 .banner_text {
-    padding-top: 300px;
+    padding-top: 270px;
     font-size: 34px;
     line-height: 44px;
     font-weight: 300;
@@ -521,6 +521,10 @@ body {
     border-left: 1px solid #999;
     border-right: 1px solid #999;
     padding: 0 5px;
+}
+
+.customer_inner ul li:nth-child(3) {
+    padding-top: 30px;
 }
 
 .customer_title {
