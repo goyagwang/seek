@@ -911,3 +911,24 @@ body {
         display: block;
     }
 }
+
+@media (max-width:1281px){
+    .new_content{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+.best_content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mobile_enter{
+    display: block;
+}
+}
