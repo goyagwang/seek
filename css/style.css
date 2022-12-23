@@ -154,6 +154,7 @@ body {
     font-family: 'witka';
     font-size: 20px;
     color: #fff;
+    text-align: center;
 }
 
 .slide.on {
@@ -163,8 +164,7 @@ body {
 .slide ul li {
     display: inline-block;
     width: 100%;
-    padding: 10px 0;
-    border-bottom: 1px solid #999;
+    padding: 20px 0;
     padding-left: 20px;
 }
 
@@ -271,6 +271,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-end;
 
 }
 
@@ -517,6 +518,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
 }
 
 .customer_inner ul li {
@@ -527,10 +529,6 @@ body {
     border-left: 1px solid #999;
     border-right: 1px solid #999;
     padding: 0 5px;
-}
-
-.customer_inner ul li:nth-child(3) {
-    padding-top: 30px;
 }
 
 .customer_title {
