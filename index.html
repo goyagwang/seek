@@ -68,7 +68,7 @@
 
     <div id="main_banner">
         <h1 class="banner_text">공간의 완성은 조명.<br>
-            나만의 무드를 연출해보세요.</h1>
+            원하는 분위기를 연출해보세요.</h1>
         <a href="#" class="btn btn1">SHOP NOW</a>
     </div>
 
@@ -335,7 +335,9 @@
                         <p class="date">2022.10.13</p>
                     </a></div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
+
     </div><!-- project -->
 
     <div id="customer">
@@ -377,7 +379,7 @@
                     사업자등록번호 : 202-21-21600<br class="mobile_enter">
                     이메일 : seek@seek.com<br class="mobile_enter">
                     통신판매업 신고번호 : 2022부산금정12160<br>
-                    ⓒ Copyright Seek. All rights reserved.
+                    ⓒ Copyright Seek All Rights Reserved.
                 </p>
             </div>
             <ul class="f3">
@@ -401,6 +403,10 @@
                 delay: 5000,
                 /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
                 disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
             },
             loop: true,
             /*가장 작게 설정한 breakpoint크기 이하일때 적용됨*/
