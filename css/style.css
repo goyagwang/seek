@@ -499,6 +499,11 @@ body {
 
 .project_swiper {
     text-align: center;
+    padding-bottom: 70px;
+}
+
+.swiper-pagination span {
+    background-color: #333;
 }
 
 /*customer*/
@@ -575,7 +580,6 @@ body {
 .f1 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 
 }
 
@@ -674,7 +678,6 @@ body {
 }
 
 /*mobile*/
-
 @media (max-width:664px) {
     .mobile_enter {
         display: block;
